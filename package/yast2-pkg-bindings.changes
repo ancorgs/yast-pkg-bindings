@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Tue Mar 31 11:39:34 UTC 2015 - lslezak@suse.cz
+
+- Pkg::ResolvableProperties(): "version" value contains a full
+  edition (in form "[epoch:]version[-release]"), additionaly return
+  also "version_epoch", "version_version" and "version_release"
+  with the parts of the edition (needed for FATE#318505)
+
+-------------------------------------------------------------------
 Wed Sep 24 18:16:22 CEST 2014 - schubi@suse.de
 
 - Added onsystem_by_user flag in Pkg.PkgProperties and
