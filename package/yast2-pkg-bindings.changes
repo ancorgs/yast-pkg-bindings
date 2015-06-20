@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Fri Jun 19 09:23:22 UTC 2015 - lslezak@suse.cz
+
+- fixed saving removed services (needed for FATE#315161)
+
+-------------------------------------------------------------------
 Tue Mar 31 11:39:34 UTC 2015 - lslezak@suse.cz
 
 - Pkg::ResolvableProperties(): "version" value contains a full
