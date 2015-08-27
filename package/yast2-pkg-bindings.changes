@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Aug 27 11:39:14 UTC 2015 - lslezak@suse.cz
+
+- Pkg::SourceGeneralData() - return also the raw URL (without
+  expanding the variables), needed for bsc#941563
+
+-------------------------------------------------------------------
 Mon Jul 27 14:29:44 UTC 2015 - lslezak@suse.cz
 
 - 3.1.20.1
